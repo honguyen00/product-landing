@@ -158,6 +158,10 @@ input[type='email'] {
     width: 100%;
 }
 
+.btn:not(.disabled):hover {
+    background-color: darkorange;
+}
+
 form {
     display: flex; 
     flex-direction: column;
