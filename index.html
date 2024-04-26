@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <script src="https://kit.fontawesome.com/53b7da2aff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img id="header-img" src="https://t3.ftcdn.net/jpg/02/43/26/66/240_F_243266606_qrREg3SESvf13xf7i7gBpG2aNsqFC1it.jpg">
+            <h1>Strongman Dumbbell</h1>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>A must-have for your ideal home gym</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" name="email" type="email" placeholder="Enter your email address"/>
+                <input id="submit" class="btn" type="submit" value="Get Started" >
+            </form>
+        </section>
+        <section id="features">
+            <div class="grid">
+                <div class="icon"><i class="fa-solid fa-fire"></i></div>
+                <div class="desc"><h2>Premium Build</h2>
+                <p>Our adjustable dumbbell are made with quality materials, robust design, and with quick-adjust mechanism without the clunkiness feeling. This makes this dumbbell ideal for use by multiple fitness seekers.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fa-solid fa-truck"></i></div>
+                <div class="desc"><h2>Fast Shipping</h2>
+                <p>We make sure you recieve your order as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fa-solid fa-star"></i></div>
+                <div class="desc"><h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your equipment.</p>
+                </div>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <iframe id="video" src="https://www.youtube.com/embed/g2t27qwZTns" width="500" height="300">
+            </iframe>
+        </section>
+        <section id="pricing">
+            <div class="product">
+                <div class="level"><h3>1 x 24kg</h3></div>
+                <h2>$199</h2>
+                <ol>
+                    <li>In Stock</li>
+                    <li>Next Day Dispatch - Online Tracking</li>
+                    <li>30-Day Returns | 12 Month Warranty</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product">
+                <div class="level"><h3>2 x 24kg</h3></div>
+                <h2>$299</h2>
+                <ol>
+                    <li>In Stock</li>
+                    <li>Next Day Dispatch - Online Tracking</li>
+                    <li>30-Day Returns | 12 Month Warranty</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product">
+                <div class="level"><h3>2 x 25kg with Stand</h3></div>
+                <h2>$499</h2>
+                <ol>
+                    <li class="unavailable">No Stock</li>
+                    <li>Next Day Dispatch - Online Tracking</li>
+                    <li>30-Day Returns | 12 Month Warranty</li>
+                </ol>
+                <button class="btn" disabled>Select</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
